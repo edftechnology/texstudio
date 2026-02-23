@@ -54,7 +54,11 @@ O `L=line wrapping` refere-se à prática de ajustar automaticamente o texto par
 
 Para configurar/instalar/usar o `TeXstudio` no `Linux Ubuntu`, você pode seguir os seguintes passos:
 
-1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando: `Ctrl + Alt + T`
+1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
+
+    ```bash
+    Ctrl + Alt + T
+    ```
 
 
 2. Certifique-se de que seu sistema esteja limpo e atualizado.
@@ -133,14 +137,18 @@ Para configurar/instalar/usar o `TeXstudio` no `Linux Ubuntu`, você pode seguir
 
     - Isso exibirá a versão do `TeXstudio` instalada no seu sistema.
 
-Agora, você deve ter o `TeXstudio` instalado no seu `Linux Ubuntu` e pronto para ser usado para edição de documentos `LaTeX`. Você pode iniciar o `TeXstudio` a partir do menu de aplicativos ou usando o comando `TeXstudio` no `Terminal`.
+Agora, você deve ter o `TeXstudio` instalado no seu `Linux Ubuntu` e pronto para ser usado para edição de documentos `LaTeX`. Você pode iniciar o `TeXstudio` a partir do menu de aplicativos ou usando o comando `TeXstudio` no `Terminal Emulator`.
 
 
 ## 1.1 Código completo para configurar/instalar/usar o `TeXstudio` no `Linux Ubuntu` 
 
 Para configurar/instalar/usar o `TeXstudio` no `Linux Ubuntu` sem precisar digitar linha por linha, você pode seguir estas etapas:
 
-1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando: `Ctrl + Alt + T`
+1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
+
+    ```bash
+    Ctrl + Alt + T
+    ```
 
 2. Digite o seguinte comando e pressione `Enter`:
 
@@ -168,21 +176,23 @@ Para carregar um arquivo de configuração (como `/docs/profile_edenedfsls`) no 
 
 3. **Acesse as Configurações do `TeXstudio`**: No menu superior, vá para `Options > Load Profile (Carregar Perfil)`.
 
-4. **Selecione o Arquivo de Configuração**:
+4. **Visualizar todos os arquivos**: Na janela `Load Profile (Carregar Perfil)`, alterar `TXS Profile` para `All files`.
 
-    4.1 Uma janela será aberta para você navegar no sistema de arquivos. Encontre o arquivo `/docs/profile_edenedfsls` no local onde ele está armazenado.
+5. **Selecione o Arquivo de Configuração**:
 
-    4.2 Selecione a opção `Todos os arquivos` ou `All files`
+    5.1 Uma janela será aberta para você navegar no sistema de arquivos. Encontre o arquivo `/docs/profile_edenedfsls` no local onde ele está armazenado.
 
-    4.3 Selecione o arquivo e clique em `"Abrir"` ou `"Open"`.
+    5.2 Selecione a opção `Todos os arquivos` ou `All files`
 
-5. **Verifique as Configurações**:
+    5.3 Selecione o arquivo e clique em `"Abrir"` ou `"Open"`.
 
-    5.1 Após carregar o perfil, o `TeXstudio` aplicará automaticamente todas as configurações contidas no arquivo.
+6. **Verifique as Configurações**:
 
-    5.2 Para confirmar se as configurações foram aplicadas corretamente, vá para `Options > Configure TeXstudio` e revise as configurações. Elas devem refletir as opções configuradas no arquivo de perfil.
+    6.1 Após carregar o perfil, o `TeXstudio` aplicará automaticamente todas as configurações contidas no arquivo.
 
-6. **Reinicie o `TeXstudio` (se necessário)**: Em alguns casos, pode ser necessário reiniciar o `TeXstudio` para garantir que todas as configurações do perfil tenham efeito.
+    6.2 Para confirmar se as configurações foram aplicadas corretamente, vá para `Options > Configure TeXstudio` e revise as configurações. Elas devem refletir as opções configuradas no arquivo de perfil.
+
+7. **Reinicie o `TeXstudio` (se necessário)**: Em alguns casos, pode ser necessário reiniciar o `TeXstudio` para garantir que todas as configurações do perfil tenham efeito.
 
 **Como o Arquivo de Perfil Funciona**:
 
@@ -344,7 +354,7 @@ Este procedimento assegura que o `TeXstudio` irá compilar apenas o documento at
 
 ## 10. Abrir instâncias do `TeXstudio`
 
-Para abrir uma nova instância do `TeXstudio`, execute o comando abaixo no terminal:
+Para abrir uma nova instância do `TeXstudio`, execute o comando abaixo no `Terminal Emulator`:
 
 ```bash
 texstudio -new-instance &
@@ -355,7 +365,7 @@ Cada execução desse comando inicia uma instância independente do editor, perm
 
 ## Referências
 
-[1] OPENAI. ***Ativar autosave no `texstudio`.*** Disponível em: <https://chat.openai.com/c/210ca6d2-7da5-4830-890a-b8e1cb0ee7ee> (texto adaptado). ChatGPT. Acessado em: 27/11/2023 10:44.
+[1] OPENAI. ***Instalar o `texstudio` no `linux ubuntu` pelo `terminal emulator`.*** Disponível em: <https://chat.openai.com/c/210ca6d2-7da5-4830-890a-b8e1cb0ee7ee> (texto adaptado). ChatGPT. Acessado em: 27/11/2023 10:44.
 
 [2] OPENAI. ***Vs code: editor popular.*** Disponível em: <https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42> (texto adaptado). ChatGPT. Acessado em: 14/11/2023 18:56.
 
