@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Como instalar/configurar/usar o `TeXstudio` no `Linux Ubuntu`
+# # Como instalar/configurar/usar o `Texstudio` no `Linux Ubuntu`
 # 
 # ## Resumo
 # 
-# Neste documento estão contidos os principais comandos e configurações para configurar/instalar/usar o `TeXstudio` no `Linux Ubuntu`.
+# Neste documento estão contidos os principais comandos e configurações para configurar/instalar/usar o `Texstudio` no `Linux Ubuntu`.
 # 
 # ## _Abstract_
 # 
-# _This document contains the main commands and settings for configuring/installing/use `TeXstudio` on `Linux Ubuntu`._ 
+# _This document contains the main commands and settings for configuring/installing/use `Texstudio` on `Linux Ubuntu`._ 
 
 # ### Construído com
 # 
@@ -28,9 +28,9 @@
 
 # ## Descrição [2]
 # 
-# ### ``TeXstudio``
+# ### ``Texstudio``
 # 
-# O `TeXstudio` é um ambiente integrado de desenvolvimento (IDE) gratuito e de código aberto projetado especificamente para facilitar a criação e edição de documentos `LaTeX`, um sistema de composição tipográfica amplamente utilizado para produzir documentos científicos, acadêmicos e técnicos de alta qualidade. Com recursos como realce de sintaxe, correção automática, assistência de código e visualização em tempo real, o `TeXstudio` torna o processo de escrita e formatação de documentos `LaTeX` mais eficiente e acessível. Ele oferece uma interface amigável para a configuração de projetos, gerenciamento de bibliotecas de referências, bem como integração com o `TeX Live` e outras distribuições `LaTeX`, tornando-o uma escolha popular entre autores e pesquisadores que buscam uma ferramenta poderosa e conveniente para produzir documentos técnico-científicos de alta qualidade.
+# O `Texstudio` é um ambiente integrado de desenvolvimento (IDE) gratuito e de código aberto projetado especificamente para facilitar a criação e edição de documentos `LaTeX`, um sistema de composição tipográfica amplamente utilizado para produzir documentos científicos, acadêmicos e técnicos de alta qualidade. Com recursos como realce de sintaxe, correção automática, assistência de código e visualização em tempo real, o `Texstudio` torna o processo de escrita e formatação de documentos `LaTeX` mais eficiente e acessível. Ele oferece uma interface amigável para a configuração de projetos, gerenciamento de bibliotecas de referências, bem como integração com o `TeX Live` e outras distribuições `LaTeX`, tornando-o uma escolha popular entre autores e pesquisadores que buscam uma ferramenta poderosa e conveniente para produzir documentos técnico-científicos de alta qualidade.
 # 
 # ### `Auto save all files`
 # 
@@ -53,9 +53,9 @@
 # O `L=line wrapping` refere-se à prática de ajustar automaticamente o texto para que ele se encaixe dentro dos limites de uma janela ou área designada em um editor de texto, processador de texto ou interface de usuário. Quando o texto atinge a borda da área visível, ele "quebra" para a linha seguinte, permitindo que o conteúdo seja legível sem a necessidade de rolagem horizontal. O `line wrapping` é especialmente útil em documentos longos ou códigos, pois melhora a legibilidade e a organização do conteúdo, facilitando a edição e revisão sem perder informações visíveis.
 # 
 
-# ## 1. Configurar/Instalar/Usar o `TeXstudio` no `Linux Ubuntu` [1]
+# ## 1. Configurar/Instalar/Usar o `Texstudio` no `Linux Ubuntu` [1]
 # 
-# Para configurar/instalar/usar o `TeXstudio` no `Linux Ubuntu`, você pode seguir os seguintes passos:
+# Para configurar/instalar/usar o `Texstudio` no `Linux Ubuntu`, você pode seguir os seguintes passos:
 # 
 # 1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
 # 
@@ -114,7 +114,7 @@
 #     sudo apt full-upgrade -y
 #     ```
 
-# 3. **Instale o `TeXstudio`:** Você pode instalar o `TeXstudio` diretamente a partir dos repositórios oficiais do `Linux Ubuntu` usando o comando `apt`. Execute o seguinte comando para instalar:
+# 3. **Instale o `Texstudio`:** Você pode instalar o `Texstudio` diretamente a partir dos repositórios oficiais do `Linux Ubuntu` usando o comando `apt`. Execute o seguinte comando para instalar:
 # 
 #     ```bash
 #     sudo apt install texstudio -y
@@ -130,22 +130,22 @@
 # 
 # - **Confirme a instalação:** Caso peça a senha, depois de digitar sua senha, o sistema perguntará se você deseja continuar com a instalação. Digite `Y` e pressione `Enter` para confirmar.
 # 
-#     - O `TeXstudio` será baixado e instalado automaticamente no seu sistema.
+#     - O `Texstudio` será baixado e instalado automaticamente no seu sistema.
 # 
-# 5. Verifique a instalação: Após a instalação ser concluída com sucesso, você pode verificar se o `TeXstudio` está instalado corretamente, executando o comando:
+# 5. Verifique a instalação: Após a instalação ser concluída com sucesso, você pode verificar se o `Texstudio` está instalado corretamente, executando o comando:
 # 
 #     ```bash
 #     texstudio --version
 #     ```
 # 
-#     - Isso exibirá a versão do `TeXstudio` instalada no seu sistema.
+#     - Isso exibirá a versão do `Texstudio` instalada no seu sistema.
 # 
-# Agora, você deve ter o `TeXstudio` instalado no seu `Linux Ubuntu` e pronto para ser usado para edição de documentos `LaTeX`. Você pode iniciar o `TeXstudio` a partir do menu de aplicativos ou usando o comando `TeXstudio` no `Terminal Emulator`.
+# Agora, você deve ter o `Texstudio` instalado no seu `Linux Ubuntu` e pronto para ser usado para edição de documentos `LaTeX`. Você pode iniciar o `Texstudio` a partir do menu de aplicativos ou usando o comando `Texstudio` no `Terminal Emulator`.
 # 
 
-# ## 1.1 Código completo para configurar/instalar/usar o `TeXstudio` no `Linux Ubuntu` 
+# ## 1.1 Código completo para configurar/instalar/usar o `Texstudio` no `Linux Ubuntu` 
 # 
-# Para configurar/instalar/usar o `TeXstudio` no `Linux Ubuntu` sem precisar digitar linha por linha, você pode seguir estas etapas:
+# Para configurar/instalar/usar o `Texstudio` no `Linux Ubuntu` sem precisar digitar linha por linha, você pode seguir estas etapas:
 # 
 # 1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
 # 
@@ -169,15 +169,15 @@
 #     texstudio --version
 #     ```
 
-# ## 2. Carregar o arquivo de perfil no seu `TeXstudio`
+# ## 2. Carregar o arquivo de perfil no seu `Texstudio`
 # 
-# Para carregar um arquivo de configuração (como `/docs/profile_edenedfsls`) no `TeXstudio`, e evitar configurar manualmente todas as opções, você pode seguir este procedimento:
+# Para carregar um arquivo de configuração (como `/docs/profile_edenedfsls`) no `Texstudio`, e evitar configurar manualmente todas as opções, você pode seguir este procedimento:
 # 
 # 1. **Baixe ou Localize o Arquivo de Configuração**: Certifique-se de que o arquivo `/docs/profile_edenedfsls` já esteja salvo em algum local acessível no seu sistema (ex: na sua pasta de documentos).
 # 
-# 2. **Abra o `TeXstudio`**.
+# 2. **Abra o `Texstudio`**.
 # 
-# 3. **Acesse as Configurações do `TeXstudio`**: No menu superior, vá para `Options > Load Profile (Carregar Perfil)`.
+# 3. **Acesse as Configurações do `Texstudio`**: No menu superior, vá para `Options > Load Profile (Carregar Perfil)`.
 # 
 # 4. **Visualizar todos os arquivos**: Na janela `Load Profile (Carregar Perfil)`, alterar `TXS Profile` para `All files`.
 # 
@@ -191,28 +191,28 @@
 # 
 # 6. **Verifique as Configurações**:
 # 
-#     6.1 Após carregar o perfil, o `TeXstudio` aplicará automaticamente todas as configurações contidas no arquivo.
+#     6.1 Após carregar o perfil, o `Texstudio` aplicará automaticamente todas as configurações contidas no arquivo.
 # 
-#     6.2 Para confirmar se as configurações foram aplicadas corretamente, vá para `Options > Configure TeXstudio` e revise as configurações. Elas devem refletir as opções configuradas no arquivo de perfil.
+#     6.2 Para confirmar se as configurações foram aplicadas corretamente, vá para `Options > Configure Texstudio` e revise as configurações. Elas devem refletir as opções configuradas no arquivo de perfil.
 # 
-# 7. **Reinicie o `TeXstudio` (se necessário)**: Em alguns casos, pode ser necessário reiniciar o `TeXstudio` para garantir que todas as configurações do perfil tenham efeito.
+# 7. **Reinicie o `Texstudio` (se necessário)**: Em alguns casos, pode ser necessário reiniciar o `Texstudio` para garantir que todas as configurações do perfil tenham efeito.
 # 
 # **Como o Arquivo de Perfil Funciona**:
 # 
-# O arquivo de perfil contém as preferências e configurações do `TeXstudio` que podem incluir opções de compilação, visualização, caminhos de bibliotecas, comportamentos de autocompletar, entre outros. Ao carregar o arquivo de perfil, essas configurações são aplicadas automaticamente, poupando o trabalho de configurar manualmente cada opção.
+# O arquivo de perfil contém as preferências e configurações do `Texstudio` que podem incluir opções de compilação, visualização, caminhos de bibliotecas, comportamentos de autocompletar, entre outros. Ao carregar o arquivo de perfil, essas configurações são aplicadas automaticamente, poupando o trabalho de configurar manualmente cada opção.
 # 
-# Se o arquivo de perfil for fornecido corretamente, essa abordagem permite que você configure o `TeXstudio` de maneira rápida e consistente e **NÃO** irá precisar seguir as Seções de configuração a seguir.
+# Se o arquivo de perfil for fornecido corretamente, essa abordagem permite que você configure o `Texstudio` de maneira rápida e consistente e **NÃO** irá precisar seguir as Seções de configuração a seguir.
 # 
 
-# ## 3. Habilitar o `Auto Save All Files` no `TeXstudio`
+# ## 3. Habilitar o `Auto Save All Files` no `Texstudio`
 # 
-# Para habilitar o `Auto Save All Files` no `TeXstudio`, siga os passos abaixo:
+# Para habilitar o `Auto Save All Files` no `Texstudio`, siga os passos abaixo:
 # 
-# 1. Abra o `TeXstudio`.
+# 1. Abra o `Texstudio`.
 # 
 # 2. Vá para o menu `Options` (`Opções`) no topo da janela.
 # 
-# 3. Selecione `Configure TeXstudio...` (`Configurar TeXstudio...`).
+# 3. Selecione `Configure Texstudio...` (`Configurar Texstudio...`).
 # 
 # 4. Clique na janela de configurações, clique em `Show Advanced Options` (`Mostrar Opções Avançadas`) na canto inferior esquerdo.
 # 
@@ -224,37 +224,37 @@
 # 
 #     6.1 Você pode ajustar o intervalo de tempo para o `Auto Save All Files` de acordo com suas preferências. É recomendado colocar entre cerva de `5 minutes` a `10 minutes`, no máximo `20 minutes`, para que não fique salvando a todo momento e, ao mesmo tempo, caso o trabalho seja perdido por falta de energia elétrica, por exemplo, não será perdido todo ou muito do trabalho desenvolvido.
 # 
-# Isso deve ativar o `AutoSave` no `TeXstudio`, garantindo que suas alterações sejam salvas automaticamente em intervalos regulares. Lembre-se de clicar em `OK` para confirmar as alterações e fechar a janela de configurações.
+# Isso deve ativar o `AutoSave` no `Texstudio`, garantindo que suas alterações sejam salvas automaticamente em intervalos regulares. Lembre-se de clicar em `OK` para confirmar as alterações e fechar a janela de configurações.
 # 
 
-# ## 4. Habilitar o `Auto-recompile` no `TeXstudio`
+# ## 4. Habilitar o `Auto-recompile` no `Texstudio`
 # 
-# 1. Abra o ``TeXstudio``.
+# 1. Abra o ``Texstudio``.
 # 
 # 2. Vá para o menu `Options` (`Opções`) no topo da janela.
 # 
-# 3. Selecione `Configure TeXstudio...` (`Configurar TeXstudio...`).
+# 3. Selecione `Configure Texstudio...` (`Configurar Texstudio...`).
 # 
 # 4. Clique na janela de configurações, clique em `Internal PDF Viewer` (`Visualizador PDF Interno`) na barra lateral esquerda.
 # 
 # 5. Se precisar, role a barra de rolagem veritical para baixo, no painel à direita, você verá a opção `Auto-recompile documents on changes` (`Auto-recompilar`). Marque a caixa ao lado de `Auto-recompile documents on changes` para habilitar essa funcionalidade.
 # 
-# Isso deve ativar o `Auto-recompile documents on changes` no `TeXstudio`, garantindo que suas alterações sejam compiladas automaticamente após as alterações. Lembre-se de clicar em `"OK"` para confirmar as alterações e fechar a janela de configurações.
+# Isso deve ativar o `Auto-recompile documents on changes` no `Texstudio`, garantindo que suas alterações sejam compiladas automaticamente após as alterações. Lembre-se de clicar em `"OK"` para confirmar as alterações e fechar a janela de configurações.
 # 
 
-# ## 5. Habilitar o `Show Whitespace` no `TeXstudio`
+# ## 5. Habilitar o `Show Whitespace` no `Texstudio`
 # 
-# 1. Abra o ``TeXstudio``.
+# 1. Abra o ``Texstudio``.
 # 
 # 2. Vá para o menu `Options` (`Opções`) no topo da janela.
 # 
-# 3. Selecione `Configure TeXstudio...` (`Configurar TeXstudio...`).
+# 3. Selecione `Configure Texstudio...` (`Configurar Texstudio...`).
 # 
 # 4. Clique na janela de configurações, clique em `Adv. Editor` (`Editor Avançcado`) na barra lateral esquerda.
 # 
 # 5. Se precisar, role a barra de rolagem veritical para baixo, no painel à direita, você verá a opção `Show Whitespace` (`Mostrar Espaço em Branco`). Marque a caixa ao lado de `Auto-recompile documents on changes` para habilitar essa funcionalidade.
 # 
-# Isso deve ativar o `Auto-recompile documents on changes` no `TeXstudio`, garantindo que suas alterações sejam compiladas automaticamente após as alterações. Lembre-se de clicar em `OK` para confirmar as alterações e fechar a janela de configurações.
+# Isso deve ativar o `Auto-recompile documents on changes` no `Texstudio`, garantindo que suas alterações sejam compiladas automaticamente após as alterações. Lembre-se de clicar em `OK` para confirmar as alterações e fechar a janela de configurações.
 # 
 
 # ## 5. Erros
@@ -273,9 +273,9 @@
 # 1. Aperte `Enter` mais de uma vez depois de executar o comando `sudo dpkg configure -a` ou `Ctrl+C`
 # 
 
-# ## 6. Alterar/Configurar o `Terminal Emulator` no `TeXstudio`
+# ## 6. Alterar/Configurar o `Terminal Emulator` no `Texstudio`
 # 
-# Na seção de configuração do `Terminal Emulator` interno do `TeXstudio`. Nesta tela, você pode definir várias configurações para o `Terminal Emulator` integrado que é usado dentro do próprio `TeXstudio`. Vou explicar o que cada uma dessas opções faz e como você pode configurá-las:
+# Na seção de configuração do `Terminal Emulator` interno do `Texstudio`. Nesta tela, você pode definir várias configurações para o `Terminal Emulator` integrado que é usado dentro do próprio `Texstudio`. Vou explicar o que cada uma dessas opções faz e como você pode configurá-las:
 # 
 # ### 6.1 Explicação das opções
 # 
@@ -285,18 +285,18 @@
 # 
 # 3. **`Font Size` (`Tamanho da fonte`)**: Define o tamanho da fonte usada no `Terminal Emulator` interno. No seu caso, está definido como `9`. Você pode aumentar ou diminuir conforme sua preferência para melhorar a legibilidade, por exemplo: `9`
 # 
-# 4. **`Shell`**: Este campo define qual `shell` será usado no `Terminal Emulator` interno do `TeXstudio`. No seu caso, está configurado para usar o `zsh` (`/bin/zsh`). Se você preferir usar o `bash`, por exemplo, você pode mudar este campo para `/bin/bash`.
+# 4. **`Shell`**: Este campo define qual `shell` será usado no `Terminal Emulator` interno do `Texstudio`. No seu caso, está configurado para usar o `zsh` (`/bin/zsh`). Se você preferir usar o `bash`, por exemplo, você pode mudar este campo para `/bin/bash`.
 # 
 
-# ## 7. Alterar o `Line wrapping` no `TeXstudio`
+# ## 7. Alterar o `Line wrapping` no `Texstudio`
 # 
-# Para alterar o `Line wrapping` no ``TeXstudio``, siga os passos abaixo:
+# Para alterar o `Line wrapping` no ``Texstudio``, siga os passos abaixo:
 # 
-# 1. Abra o ``TeXstudio``.
+# 1. Abra o ``Texstudio``.
 # 
 # 2. Vá para o menu `Options` (`Opções`) no topo da janela.
 # 
-# 3. Selecione `Configure TeXstudio...` (`Configurar TeXstudio...`).
+# 3. Selecione `Configure Texstudio...` (`Configurar Texstudio...`).
 # 
 # 4. Clique na janela de configurações, clique em `Show Advanced Options` (`Mostrar Opções Avançadas`) na canto inferior esquerdo.
 # 
@@ -304,34 +304,34 @@
 # 
 # 6. Se precisar, role a barra de rolagem veritical para baixo, no painel à direita, você verá a opção `Line wrapping` (Quebra de linha).
 # 
-# 7. Selecione na caixa ao lado uma das opções abaixo para alterar essa funcionalidade.
+# 7. Selecione na caixa ao lado uma das opções abaixo para alterar essa funcionalidade, de preferência para `Soft Line Wrap at Window Edge`.
 # 
 #     -**Sem Line Wrap (Sem quebra de linha)**: Códigos ou textos onde você deseja manter as linhas contínuas, sem quebras automáticas, e prefere controlar manualmente onde as linhas devem ser interrompidas.
 # 
-#     -**Soft Line Wrap at Window Edge (Quebra de linha suave na borda da janela)**: Quebra a linha apenas na interface visual do editor, mas não insere quebras de linha reais no arquivo. Isso é útil para manter a formatação original do arquivo intacta, mas facilita a visualização quando uma linha é muito longa.
+#     -**Soft Line Wrap at Window Edge (Quebra de linha suave na borda da janela) (recomendado)**: Quebra a linha apenas na interface visual do editor, mas não insere quebras de linha reais no arquivo. Isso é útil para manter a formatação original do arquivo intacta, mas facilita a visualização quando uma linha é muito longa.
 # 
 #     -**Soft Line Wrap after max. Characters (Quebra de linha após um número fixo de caracteres)**: A opção faz com que as linhas de texto ou código no editor sejam visualmente quebradas após atingirem um determinado número de caracteres, mas sem inserir uma quebra de linha real no arquivo.
 # 
 #     -**Hard Line Wrap (Quebra de linha rígida) após um número fixo de caracteres**: A linha será visualmente quebrada ao alcançar a borda da janela do editor. Se você redimensionar a janela, a linha será reformatada de acordo com o novo tamanho da janela.
 # 
-# Isso deve alterar o `Line wrapping` no `TeXstudio`, garantindo que suas alterações sejam salvas automaticamente em intervalos regulares. Lembre-se de clicar em `OK` para confirmar as alterações e fechar a janela de configurações.
+# Isso deve alterar o `Line wrapping` no `Texstudio`, garantindo que suas alterações sejam salvas automaticamente em intervalos regulares. Lembre-se de clicar em `OK` para confirmar as alterações e fechar a janela de configurações.
 # 
 
 # ## 8. Habilitar a exibição dos números de linha (`Show Line Numbers`)
 # 
-# Para habilitar a exibição dos números de linha (`Show Line Numbers`) no `TeXstudio`, siga os passos abaixo:
+# Para habilitar a exibição dos números de linha (`Show Line Numbers`) no `Texstudio`, siga os passos abaixo:
 # 
-# 1. Abra o `TeXstudio`.
+# 1. Abra o `Texstudio`.
 # 
 # 2. No menu superior, vá até `Options` (`Opções`).
 # 
-# 3. Selecione `Configure TeXstudio` (`Configurar TeXstudio`).
+# 3. Selecione `Configure Texstudio` (`Configurar Texstudio`).
 # 
 # 4. No painel à esquerda, clique em `Editor`.
 # 
 # 5. No lado direito, procure a opção `Show Line Numbers` (`Exibir Números de Linha`).
 # 
-# 6. Marque a caixa ao lado dessa opção para habilitar os números de linha.
+# 6. Marque a caixa ao lado dessa opção para habilitar os números de linha, de preferência para `Only Important Line Numbers` (`Somente o Número de Linhas Importantes`).
 # 
 # 7. Clique em `OK` ou `Apply` para salvar as configurações.
 # 
@@ -340,11 +340,11 @@
 
 # ## 9. Compilar o Arquivo Ativo Definindo-o como Documento Raiz
 # 
-# Aqui está o passo a passo para compilar apenas o arquivo ativo no `TeXstudio`, definindo-o como o Documento Raiz:
+# Aqui está o passo a passo para compilar apenas o arquivo ativo no `Texstudio`, definindo-o como o Documento Raiz:
 # 
 # 1. **Certifique-se de que o arquivo que deseja compilar está ativo**: O arquivo que você quer compilar deve estar aberto e visível no editor. Isso significa que é o arquivo que você está editando no momento.
 # 
-# 2. **Acesse o Menu de Opções**: No menu superior do `TeXstudio`, clique em `Options` (`Opções`).
+# 2. **Acesse o Menu de Opções**: No menu superior do `Texstudio`, clique em `Options` (`Opções`).
 # 
 # 3. **Selecione o Documento Raiz**: No menu suspenso, vá até a opção `Root Document` (`Documento Raiz`).
 # 
@@ -352,12 +352,12 @@
 # 
 # 5. **Compilar o Documento**: Agora, ao compilar o documento (pressionando `F5` ou clicando no botão de `Compilar & Visualizar`), somente o arquivo ativo será compilado, mesmo que ele seja parte de um projeto maior.
 # 
-# Este procedimento assegura que o `TeXstudio` irá compilar apenas o documento ativo e ignorar outros arquivos, exceto se houver referências explícitas dentro do arquivo que você está compilando.
+# Este procedimento assegura que o `Texstudio` irá compilar apenas o documento ativo e ignorar outros arquivos, exceto se houver referências explícitas dentro do arquivo que você está compilando.
 # 
 
-# ## 10. Abrir instâncias do `TeXstudio`
+# ## 10. Abrir instâncias do `Texstudio`
 # 
-# Para abrir uma nova instância do `TeXstudio`, execute o comando abaixo no `Terminal Emulator`:
+# Para abrir uma nova instância do `Texstudio`, execute o comando abaixo no `Terminal Emulator`:
 # 
 # ```bash
 # texstudio -new-instance &
